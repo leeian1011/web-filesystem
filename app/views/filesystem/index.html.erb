@@ -1,1 +1,6 @@
-<p>test</p>
+<p>| name | is_dir | size |</p>
+<% for element in @files do %>
+  | <%= element[:name] %> |
+   <%= element[:dir?] %> |
+  <%= element[:size] %> |
+<% end %>
