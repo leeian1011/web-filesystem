@@ -1,6 +1,6 @@
-#Web-Filesystem
+# Web-Filesystem
 
-##A toy project that allows FS operations through a web UI.
+## A toy project that allows FS operations through a web UI.
 
 This project is merely a learning project to familiarize myself with Ruby and Rails. *No AI is used*.
 
@@ -12,5 +12,7 @@ The first-iteration branch is just to familiarize myself with the tools availabl
 will not include any rails-relavant code.
 
 The main branch is the application.
+
+## Architecture
 
 ![architecture image](./img/architecture.png)
