@@ -14,5 +14,3 @@ will not include any rails-relavant code.
 The main branch is the application.
 
 ## Architecture
-
-![architecture image](./img/architecture.png)
