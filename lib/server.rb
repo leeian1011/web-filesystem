@@ -5,14 +5,13 @@ class Server
   def initialize(port = 6969)
     @port = port
     @server = TCPServer.new('localhost', @port)
-    @parser = Parser.new()
   end
 
   def serve
     loop do
       client = @server.accept
       request = client.gets
-      data = @parser.parse(request)
+      data = Parser.parse(request)
       puts data
       client.write("#{request}")
       client.close
